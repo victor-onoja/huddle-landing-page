@@ -244,7 +244,6 @@ footer
 ===============
 */
 .fin{
-    
     display: grid;
     background-image: url("./bg-hero-mobile.svg");
 }
@@ -276,7 +275,6 @@ footer
 .fint {
     margin-top: 2rem;
     margin-bottom: 5rem;
-    
     display: flex;
     justify-content: space-between;
 }
@@ -372,7 +370,6 @@ box-shadow: 3px -3px 10px 2px rgba(0, 0, 0, .1);
    padding: 2rem 4rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    /* visibility: hidden; */
 }
 .card h5 {
     text-align: center;
@@ -395,10 +392,8 @@ box-shadow: 3px -3px 10px 2px rgba(0, 0, 0, .1);
     background-color: var(--backgroundColor);
 }
 .foot {
-    /* margin-top: 14rem; */
     height: auto;
     width: 100%;
-    /* bottom: 0; */
     background-color: var(--Very-Dark-Cyan); 
     margin-bottom: 0;  
 }
@@ -449,4 +444,141 @@ box-shadow: 3px -3px 10px 2px rgba(0, 0, 0, .1);
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1024px) {
+    .attribution {
+        text-align: end;
+        margin-right: 3rem;
+        padding-bottom: 2rem;
+    }
+    .ch {
+        padding-bottom: 0;
+    }
+    .words {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .boggy {
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr;    
+    }
+    .bog {
+        margin-left: 2rem;
+    }
+    .log {
+        margin-left: 3rem;
+    }
+    .card {
+        margin-left: 18rem;
+        margin-right: 18rem;
+        padding: 4rem 4rem;
+    }
+    .card button {
+        margin-left: 9rem;
+        margin-right: 9rem;
+   font-size: 16px;
+    padding: 1.5rem 2rem;
+    }
+    .card h5 {
+    font-size: 1.953rem;
+    }
+    .card2 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding-left: 6rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        gap: 14rem;
+    }
+    
+    .card2 img {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        order: 1;
+    }
+    
+    .card2 h4, .card2 p {
+        text-align: start;
+    }
+    
+    .card3 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    gap: 14rem;
+    }
+    
+    .card3 img {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    }
+    .card3 h4,
+    .card3 p {
+        text-align: start;
+    }
+    
+    .card4 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding-left: 6rem;
+        padding-right: 2rem;
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: center;
+        gap: 14rem;
+    }
+    
+    .card4 img {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        order: 1;
+    }
+    
+    .card4 h4,
+    .card4 p {
+        text-align: start;
+    }
+    .fin {
+        background-image: url('bg-hero-desktop.svg');
+    }
+    .fints {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+        padding-right: 3rem;
+       padding-bottom: 4rem;
+    }
+.fints h4, .fints p {
+    text-align: start;
+}
+.logs {
+    margin-left: 3rem;
+}
+.fint button {
+    margin-right: 3rem;
+}
+.fints h4 {
+    margin-left: 3rem;
+    font-size: 1.953rem;
+}
+.fints p {
+    margin-left: 3rem;
+}
+.news {
+    margin-left: 3rem;
+}
+.mg {
+    border: 2px solid red;
+    padding-left: 4rem;
+}
 }
