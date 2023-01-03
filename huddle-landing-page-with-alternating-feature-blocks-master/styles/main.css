@@ -260,6 +260,9 @@ footer
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.check {
+    display: grid;
+}
 .news {
     color: var(--Very-Pale-Cyan);
     background-color: var(--Pink);
@@ -578,7 +581,6 @@ box-shadow: 3px -3px 10px 2px rgba(0, 0, 0, .1);
     margin-left: 3rem;
 }
 .mg {
-    border: 2px solid red;
     padding-left: 4rem;
 }
 }
